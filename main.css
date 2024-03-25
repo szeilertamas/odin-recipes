@@ -1,0 +1,30 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color:plum;
+    color:indigo;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+body {
+    height: 100%;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+a {
+    color: indigo;
+    text-decoration: solid;
+}
+
+a:hover {
+    color:rebeccapurple;
+}
+
+a:active {
+    color: whitesmoke;
+}
