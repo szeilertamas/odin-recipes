@@ -1,19 +1,33 @@
 html {
-    margin: 0;
-    padding: 0;
-    background-color:plum;
-    color:indigo;
-    font-family:'Courier New', Courier, monospace;
+    background-color: plum;
+    color: indigo;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
     font-weight: 600;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
 }
 
 body {
-    height: 100%;
-    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    text-align: center;
+    max-width: 800px;
+}
+
+img {
+    max-width: 450px;
+    max-height: 450px;
 }
 
 a {
@@ -22,9 +36,38 @@ a {
 }
 
 a:hover {
-    color:rebeccapurple;
+    color: rebeccapurple;
 }
 
 a:active {
     color: whitesmoke;
+}
+
+#odin-header {
+    font-size: 48px;
+}
+
+.home-page-list {
+    font-size: 24px;
+    list-style-type: '🇭🇺 ';
+}
+
+ul {
+    text-align: left;
+    list-style: '* ';
+}
+
+ol {
+    text-align: left; 
+    list-style:upper-roman;
+}
+
+.home-button {
+    font-size: 24px;
+    border: none;
+    background-color: indigo;
+}
+
+.link-to-home {
+    color: plum;
 }
